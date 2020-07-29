@@ -1,0 +1,19 @@
+{
+  "name": "basic-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch --require esm ./tests/**"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
